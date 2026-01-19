@@ -10,6 +10,19 @@ def subtract(a,b):
 def divide(a,b):
 	return a/b
 
+def square(a)
+	return a*a
+
+def cube(a):
+	return a*a*a
+
+def square_n_times(number, n):
+    total = 0
+    for _ in range(n):
+        number = square(number)
+        total += number
+    return total
+
 print("I'm going use the calculator functions to multiply 10 and 2")
 c=multiply(10,2)
 print(c)
